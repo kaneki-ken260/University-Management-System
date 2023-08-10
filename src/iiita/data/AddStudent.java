@@ -125,7 +125,7 @@ public class AddStudent extends JFrame implements ActionListener{
         lblcourse.setFont(new Font("serif", Font.BOLD, 20));
         add(lblcourse);
         
-        String course[] = {"B.Tech", "BBA", "BCA", "Bsc", "Msc", "MBA", "MCA", "MCom", "MA", "BA"};
+        String course[] = {"B.Tech", "M.Tech"};
         cbcourse = new JComboBox(course);
         cbcourse.setBounds(200, 400, 150, 30);
         cbcourse.setBackground(Color.WHITE);
@@ -136,7 +136,7 @@ public class AddStudent extends JFrame implements ActionListener{
         lblbranch.setFont(new Font("serif", Font.BOLD, 20));
         add(lblbranch);
         
-        String branch[] = {"Computer Science", "Electronics", "Mechanical", "Civil", "IT"};
+        String branch[] = {"IT", "IT-BI", "ECE"};
         cbbranch = new JComboBox(branch);
         cbbranch.setBounds(600, 400, 150, 30);
         cbbranch.setBackground(Color.WHITE);

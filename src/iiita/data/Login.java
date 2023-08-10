@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.sql.*;
 
-public class Login extends JFrame implements ActionListener{
+    public class Login extends JFrame implements ActionListener{
 
     JButton login, cancel;
     JTextField tfusername, tfpassword;

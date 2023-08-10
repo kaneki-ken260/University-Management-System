@@ -19,7 +19,7 @@ public class Marks extends JFrame implements ActionListener {
         
         getContentPane().setBackground(Color.WHITE);
         
-        JLabel heading = new JLabel("Delhi Technical Univeristy");
+        JLabel heading = new JLabel("IIIT Allahabad");
         heading.setBounds(100, 10, 500, 25);
         heading.setFont(new Font("Tahoma", Font.BOLD, 20));
         add(heading);
